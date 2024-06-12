@@ -80,9 +80,9 @@ firewall-cmd --reload
 # Download and Install openDCIM
 mkdir /opt/openDCIM
 cd /opt/openDCIM
-curl -O http://www.opendcim.org/packages/openDCIM-4.0.1.tar.gz
-tar zxvf openDCIM-4.0.1.tar.gz
-ln -s openDCIM-4.0.1 opendcim
+curl -O https://www.opendcim.org/packages/openDCIM-23.04.tar.gz
+tar zxvf openDCIM-23.04.tar.gz
+ln -s openDCIM-23.04 opendcim
 
 # Prepare the configuration file for database access
 cd /opt/openDCIM/opendcim
